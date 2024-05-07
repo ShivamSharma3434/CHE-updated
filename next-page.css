@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Manrope;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #dde5d6;
+    color: rgb(29, 56, 29);
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    padding-left: 4vh;
+} 
+::-webkit-scrollbar{
+    display: none;
+}
+
+#heading h1{
+    /* padding-left: 4vh; */
+    padding-top: 1vh;
+    font-size: 6vh;
+    font-weight: 500;
+}
+
+#list h2{
+    /* padding-left: 4vh; */
+    padding-top: 0.5vh;
+    font-size: 3vh;
+    font-weight: 400;
+    margin-bottom: 3vh;
+}
+
+#projects h2{
+    padding-top: 2vh;
+    
+}
+
+#projects h3{
+    padding-top: 2vh;
+    padding-left: 3vh;
+    font-weight: 500;
+    letter-spacing: 0.2vh;
+}
+
+#image{
+    /* background-color: #fff; */
+    margin-left: 145vh; 
+    margin-top: -34vh; 
+}
+
+#image img{
+    height: 42vh;
+    width: 42vh;
+    padding-left: 70px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 50%
+}
+
+#link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6vh;
+    /* padding-left: 80vh; */
+}
+
+#link a{
+    color: #011c09;
+    font-size: 3.5vh;
+    letter-spacing: 0.4vh;
+    margin-bottom: 5vh;
+}
+
+#link a:hover {
+    color: rgba(128, 0, 128, 0.719);
+}
